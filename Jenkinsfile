@@ -6,7 +6,7 @@ stage ('SCM_checkout') {
 		doGenerateSubmoduleConfigurations: false, 
 		extensions: [], 
 		submoduleCfg: [], 
-		userRemoteConfigs: [[url: 'https://github.com/nileshzend/helloworldweb.git']]])
+		userRemoteConfigs: [[url: 'https://github.com/nileshzend/Java_Project.git']]])
 	}
 
 stage ('Build') {
